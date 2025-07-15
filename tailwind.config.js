@@ -8,7 +8,11 @@ export default {
       },
       fontFamily: {
         inter: ["Inter", "sans-serif"], // Police Inter
+        poppins: ["Poppins", "sans-serif"]
       },
+      backgroundImage: {
+        'newsletter': "url('/assets/newsletter-img.png')",
+      }
     },
   },
   plugins: [],

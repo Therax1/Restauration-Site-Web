@@ -33,3 +33,20 @@ export const plates = [
         description: "Food is any substance consumed by an organism for nutritional support."
     },
 ]
+
+export const userFeedback=[
+    {
+        id: 1, 
+        src: "/assets/user1.png",
+        userName: "Abdullah Iqbal",
+        message: "A customer is a person or business that buys goods or services from another business. Customers are crucial because they generate revenue. Without them, businesses would go out of business.",
+        rate: 5
+    },
+    {
+        id: 1, 
+        src: "/assets/user2.png",
+        userName: "Henry john",
+        message: "A customer is a person or business that buys goods or services from another business. Customers are crucial because they generate revenue. Without them, businesses would go out of business.",
+        rate: 5
+    }
+]
