@@ -2,7 +2,7 @@
 
 export default function FeedbackCard({userProfil, altUser, userMessage, userFullname}){
     return(
-        <article className="shadow-lg relative p-5 pb-8 bg-white pt-28 border rounded-tr-[5rem] rounded-bl-[5rem] flex flex-col items-center max-w-[38rem] gap-12">
+        <article className="shadow-lg relative p-5 pb-8 bg-white pt-20 lg:pt-28 border rounded-tr-[5rem] rounded-bl-[5rem] flex flex-col items-center max-w-[38rem] gap-12">
             <img src={userProfil} alt={altUser} className="absolute -top-[20%] p-4 rounded-full bg-white" />
             <div className="flex">
                 <Star />
@@ -11,8 +11,8 @@ export default function FeedbackCard({userProfil, altUser, userMessage, userFull
                 <Star />
                 <Star />
             </div>
-            <p className="text-2xl text-center">{userMessage}</p>
-            <h3 className="font-bold text-4xl">{userFullname}</h3>
+            <p className="text-xl lg:text-2xl text-center">{userMessage}</p>
+            <h3 className="font-bold text-3xl lg:text-4xl">{userFullname}</h3>
         </article>
     )
 }
